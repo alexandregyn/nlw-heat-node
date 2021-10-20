@@ -1,5 +1,4 @@
 import { Request, Response,  } from "express";
-import { AuthenticateUserSercice } from "../services/AuthemticateUserService";
 import { CreateMessageServive } from "../services/CreateMessageService";
 
 class CreateMassegeController {
