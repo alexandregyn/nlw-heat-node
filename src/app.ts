@@ -17,4 +17,4 @@ app.get("/signin/callback", (request, response) => {
   return response.json(code);
 });
 
-app.listen(4000, () => console.log('Servidor Inicado!'));
+app.listen(4000, () => console.log(`Servidor Inicado! http://localhost:4000`));
